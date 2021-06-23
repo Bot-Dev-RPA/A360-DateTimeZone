@@ -1,0 +1,12 @@
+{
+	"label": "LHGH DateTimeZone",
+	"description": "Provides actions for datetime at timezone.",
+	"GetTimeZoneTime.label": "DateTime at zone",
+	"GetTimeZoneTime.description": "Returns current datetime at particular timezone",
+	"GetTimeZoneTime.node_label": "Get current datetime At {{zoneID}}",
+	"GetTimeZoneTime.return_label": "Assign the output to a variable",
+	"GetTimeZoneTime.return_label_description": "",
+	"group": "Sumit Kumar",
+	"vendor": "Sumit Kumar"
+
+}
