@@ -1,0 +1,1 @@
+[{"name":"FormattedDate","label":"Current IST DateTime String","description":"Current IST Date Time formatted as: MM-dd-yyyy_HH-mm-ss-SSS","mainClass":"com.automationanywhere.botcommand.ISTDateTimeVariable","type":"STRING"}]

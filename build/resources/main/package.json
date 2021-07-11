@@ -4,9 +4,9 @@
     "description": "[[description]]",
     "group": "com.automationanywhere",
     "artifactName": "A360_DateTimeZone",
-    "packageVersion": "2.0.8-20210530-145914",
-    "codeVersion": "2.0.8-20210530-145914",
-    "author": "",
+    "packageVersion": "2.0.8-20210711-225904",
+    "codeVersion": "2.0.8-20210711-225904",
+    "author": "Sumit Kumar",
     "commands": [
         {
             "name": "LHGH_TimeZone",
@@ -23,7 +23,6 @@
                 {
                     "name": "zoneID",
                     "label": "Get current time at region",
-                    "description": "[[GetTimeZoneTime.return_label_description]]",
                     "type": "SELECT",
                     "defaultValue": {
                         "string": "Asia/Kolkata",
@@ -74,6 +73,15 @@
                     ]
                 }
             ]
+        }
+    ],
+    "variables": [
+        {
+            "name": "FormattedDate",
+            "label": "Current IST DateTime String",
+            "description": "Current IST Date Time formatted as: MM-dd-yyyy_HH-mm-ss-SSS",
+            "mainClass": "com.automationanywhere.botcommand.ISTDateTimeVariable",
+            "type": "STRING"
         }
     ]
 }
